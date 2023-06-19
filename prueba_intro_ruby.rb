@@ -39,7 +39,7 @@ class Person
     @last_name = last
   end
   def talk
-    puts "Bienvenidos a todos Personas!"
+    puts "Bienvenidas a todas las personas!"
   end
   def introduce
     puts "Soy una Persona, Mi nombre es #{@first_name} #{@last_name}."
@@ -48,7 +48,7 @@ end
 
 class Teacher < Person
   def talk
-    puts "Bienvenidos a la clase de programación con Ruby!"
+    puts "¡Bienvenidos a la clase de programación con Ruby!"
   end
 
   def introduce
@@ -58,7 +58,7 @@ end
 
 class Student < Person 
   def talk
-    puts "Aquí es la clase de programación con Ruby?"
+    puts "¿Aquí es la clase de programación con Ruby?"
   end
 
   def introduce
@@ -68,7 +68,7 @@ end
 
 class Parent < Person 
   def talk
-    puts "Aquí es la reunión de apoderados?  #{@type}"
+    puts "¿Aquí es la reunión de apoderados?  #{@type}"
   end
 
   def introduce
